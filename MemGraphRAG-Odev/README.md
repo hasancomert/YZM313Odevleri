@@ -11,7 +11,7 @@ Bu klasörde, [XMUDeepLIT/MemGraphRAG](https://github.com/XMUDeepLIT/MemGraphRAG
 1. MemGraphRAG'ın çalışma mantığı: üç katmanlı bellek, çok ajanlı indeksleme, PPR tabanlı erişim
 2. Dil modeli seçimi ve gerekçesi: **Qwen2.5-7B-Instruct** (Ollama, 4-bit, ücretsiz T4 GPU). İsteğe bağlı olarak GPT-4o-mini veya OpenAI uyumlu başka bir servis de seçilebilir.
 3. Repo klonlama ve Colab ile uyumlu bağımlılık kurulumu (`requirements.txt` Python 3.13'te kurulamıyor)
-4. Kaynak koda uygulanan 7 küçük yama (3 çökme hatası, 3 mantık hatası, 1 log sorunu)
+4. Kaynak koda uygulanan 8 küçük yama (4 çökme hatası, 3 mantık hatası, 1 log sorunu)
 5. HotpotQA alt kümesinin README'nin beklediği formatta hazırlanması
 6. Repodaki örneğin çalıştırılması: `code/index.py` (indeksleme) → `code/retrieval_dataset_test.py` (erişim + QA)
 7. Ara çıktıların incelenmesi: OpenIE üçlüleri, şema katmanı, ontoloji filtreleme, çelişki tespiti/çözümü, graf
