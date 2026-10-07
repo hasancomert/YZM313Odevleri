@@ -26,14 +26,15 @@ Bu klasörde, [XMUDeepLIT/MemGraphRAG](https://github.com/XMUDeepLIT/MemGraphRAG
    - Doğrudan GitHub'dan açın: [Colab'da aç](https://colab.research.google.com/github/hasancomert/RandomOdevler/blob/ccr-d50f9cf5-gvz6tq/MemGraphRAG-Odev/MemGraphRAG_Colab.ipynb). Repo gizliyse Colab sizden GitHub yetkisi ister; dal birleştirildikten sonra bağlantıdaki dal adını `main` olarak değiştirin.
    - Teslim için notebook'un **kendi Google Drive'ınızda** bir kopyası olmalı (`Dosya → Drive'a kopya kaydet`). Paylaşım bu kopya üzerinden yapılır.
 2. `Çalışma zamanı → Çalışma zamanı türünü değiştir → T4 GPU` seçin.
-3. `Çalışma zamanı → Tümünü çalıştır`. T4 üzerinde toplam süre yaklaşık 30–45 dakikadır; sürenin çoğu indeksleme adımında harcanır.
+3. `Çalışma zamanı → Tümünü çalıştır`. T4 üzerinde toplam süre tahminen 30–45 dakikadır (gerçek indeksleme süresi Bölüm 9'un çıktısında yazdırılır); sürenin çoğu indeksleme adımında harcanır.
 4. GPT-4o-mini kullanmak isterseniz, sol menüdeki 🔑 **Secrets** bölümüne `OPENAI_API_KEY` ekleyin ve yapılandırma hücresinde `LLM_BACKEND = "openai"` yapın.
 
 ## Teslim öncesi kontrol listesi
 
 - [ ] Notebook'un en üstüne ad, soyad ve öğrenci numarası yazıldı.
 - [ ] Tüm hücreler Colab'da hatasız çalıştı ve çıktılar notebook'ta kayıtlı (`Dosya → Kaydet`).
-- [ ] Bölüm 12–15'teki yorumlar kendi çalıştırmanızdaki sayılara göre gözden geçirildi.
+- [ ] Bölüm 7.1'in geçerli JSON, Bölüm 9'un "İndeksleme süresi" yazdırdığı ve Bölüm 12–15 hücrelerinin çıktı ürettiği kontrol edildi.
+- [ ] Bölüm 12.1'deki otomatik özet okundu; Bölüm 15–16'daki yorumlar bu sayılarla çelişmiyor (gerekirse bir-iki cümle eklendi).
 - [ ] Kendi çalıştırmanızda farklı bir hata aldıysanız Bölüm 14'teki tabloya eklendi.
 - [ ] `Paylaş` düğmesiyle **coskunmustafa@ankara.edu.tr** ve **betulerkantarci@ankara.edu.tr** adreslerine erişim verildi.
 - [ ] Son teslim: **8 Ekim 2026, 12:00**.
