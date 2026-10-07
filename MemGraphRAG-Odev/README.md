@@ -23,7 +23,7 @@ Bu klasörde, [XMUDeepLIT/MemGraphRAG](https://github.com/XMUDeepLIT/MemGraphRAG
 
 1. Notebook'u Colab'da açın. İki yol var:
    - Colab'da `Dosya → Not defteri yükle` ile `MemGraphRAG_Colab.ipynb` dosyasını yükleyin.
-   - Doğrudan GitHub'dan açın: [Colab'da aç](https://colab.research.google.com/github/hasancomert/RandomOdevler/blob/ccr-d50f9cf5-gvz6tq/MemGraphRAG-Odev/MemGraphRAG_Colab.ipynb). Repo gizliyse Colab sizden GitHub yetkisi ister; dal birleştirildikten sonra bağlantıdaki dal adını `main` olarak değiştirin.
+   - Doğrudan GitHub'dan açın: [Colab'da aç](https://colab.research.google.com/github/hasancomert/YZM313Odevleri/blob/ccr-d50f9cf5-gvz6tq/MemGraphRAG-Odev/MemGraphRAG_Colab.ipynb). Repo gizliyse Colab sizden GitHub yetkisi ister; dal birleştirildikten sonra bağlantıdaki dal adını `main` olarak değiştirin.
    - Teslim için notebook'un **kendi Google Drive'ınızda** bir kopyası olmalı (`Dosya → Drive'a kopya kaydet`). Paylaşım bu kopya üzerinden yapılır.
 2. `Çalışma zamanı → Çalışma zamanı türünü değiştir → T4 GPU` seçin.
 3. `Çalışma zamanı → Tümünü çalıştır`. T4 üzerinde toplam süre tahminen 30–45 dakikadır (gerçek indeksleme süresi Bölüm 9'un çıktısında yazdırılır); sürenin çoğu indeksleme adımında harcanır.
